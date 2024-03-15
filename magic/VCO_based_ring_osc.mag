@@ -1,0 +1,71 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710012052
+<< checkpaint >>
+rect -1313 1792 1629 1845
+rect -1313 1739 1998 1792
+rect -1313 1686 2367 1739
+rect -1313 1633 2736 1686
+rect -1313 1580 3105 1633
+rect -1313 1509 3474 1580
+rect -1313 1456 3843 1509
+rect -1313 1403 4212 1456
+rect -1313 1350 4581 1403
+rect -1313 1297 4950 1350
+rect -1313 -1313 5319 1297
+rect -944 -1366 5319 -1313
+rect -575 -1419 5319 -1366
+rect -206 -1472 5319 -1419
+rect 163 -1525 5319 -1472
+rect 532 -1578 5319 -1525
+rect 901 -1631 5319 -1578
+rect 1270 -1684 5319 -1631
+rect 1639 -1737 5319 -1684
+rect 2008 -1790 5319 -1737
+rect 2377 -1843 5319 -1790
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM1
+timestamp 0
+transform 1 0 158 0 1 266
+box -211 -319 211 319
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM2
+timestamp 0
+transform 1 0 527 0 1 213
+box -211 -319 211 319
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM3
+timestamp 0
+transform 1 0 896 0 1 160
+box -211 -319 211 319
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM4
+timestamp 0
+transform 1 0 1265 0 1 107
+box -211 -319 211 319
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM5
+timestamp 0
+transform 1 0 1634 0 1 54
+box -211 -319 211 319
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM6
+timestamp 0
+transform 1 0 2003 0 1 1
+box -211 -319 211 319
+use sky130_fd_pr__nfet_01v8_648S5X  XM7
+timestamp 0
+transform 1 0 2372 0 1 -61
+box -211 -310 211 310
+use sky130_fd_pr__nfet_01v8_648S5X  XM8
+timestamp 0
+transform 1 0 2741 0 1 -114
+box -211 -310 211 310
+use sky130_fd_pr__nfet_01v8_648S5X  XM9
+timestamp 0
+transform 1 0 3110 0 1 -167
+box -211 -310 211 310
+use sky130_fd_pr__nfet_01v8_648S5X  XM10
+timestamp 0
+transform 1 0 3479 0 1 -220
+box -211 -310 211 310
+use sky130_fd_pr__nfet_01v8_648S5X  XM11
+timestamp 0
+transform 1 0 3848 0 1 -273
+box -211 -310 211 310
+<< end >>
