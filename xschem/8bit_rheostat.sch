@@ -232,7 +232,7 @@ lab=nb0}
 N 140 -770 140 -730 {
 lab=dvdd}
 N 140 -560 140 -510 {
-lab=#net15}
+lab=dvss}
 N 140 -700 210 -700 {
 lab=dvdd}
 N 210 -730 210 -700 {
@@ -240,11 +240,11 @@ lab=dvdd}
 N 140 -730 210 -730 {
 lab=dvdd}
 N 140 -590 210 -590 {
-lab=#net15}
+lab=dvss}
 N 210 -590 210 -560 {
-lab=#net15}
+lab=dvss}
 N 140 -560 210 -560 {
-lab=#net15}
+lab=dvss}
 N 100 -670 100 -590 {
 lab=din0}
 N 100 -700 100 -670 {
@@ -254,7 +254,7 @@ lab=pb0}
 N 290 -770 290 -730 {
 lab=dvdd}
 N 290 -560 290 -510 {
-lab=#net15}
+lab=dvss}
 N 290 -700 360 -700 {
 lab=dvdd}
 N 360 -730 360 -700 {
@@ -262,11 +262,11 @@ lab=dvdd}
 N 290 -730 360 -730 {
 lab=dvdd}
 N 290 -590 360 -590 {
-lab=#net15}
+lab=dvss}
 N 360 -590 360 -560 {
-lab=#net15}
+lab=dvss}
 N 290 -560 360 -560 {
-lab=#net15}
+lab=dvss}
 N 250 -670 250 -590 {
 lab=nb0}
 N 250 -700 250 -670 {
@@ -276,7 +276,7 @@ lab=nb0}
 N 140 -770 290 -770 {
 lab=dvdd}
 N 140 -510 290 -510 {
-lab=#net15}
+lab=dvss}
 N 290 -630 370 -630 {
 lab=pb0}
 N 730 -1400 730 -1160 {
@@ -286,15 +286,15 @@ lab=din0}
 N 140 -330 140 -280 {
 lab=nb1}
 N 140 -430 140 -390 {
-lab=dvdd}
+lab=#net15}
 N 140 -220 140 -170 {
 lab=#net16}
 N 140 -360 210 -360 {
-lab=dvdd}
+lab=#net15}
 N 210 -390 210 -360 {
-lab=dvdd}
+lab=#net15}
 N 140 -390 210 -390 {
-lab=dvdd}
+lab=#net15}
 N 140 -250 210 -250 {
 lab=#net16}
 N 210 -250 210 -220 {
@@ -308,15 +308,15 @@ lab=din1}
 N 290 -330 290 -280 {
 lab=pb1}
 N 290 -430 290 -390 {
-lab=dvdd}
+lab=#net15}
 N 290 -220 290 -170 {
 lab=#net16}
 N 290 -360 360 -360 {
-lab=dvdd}
+lab=#net15}
 N 360 -390 360 -360 {
-lab=dvdd}
+lab=#net15}
 N 290 -390 360 -390 {
-lab=dvdd}
+lab=#net15}
 N 290 -250 360 -250 {
 lab=#net16}
 N 360 -250 360 -220 {
@@ -330,7 +330,7 @@ lab=nb1}
 N 140 -290 250 -290 {
 lab=nb1}
 N 140 -430 290 -430 {
-lab=dvdd}
+lab=#net15}
 N 140 -170 290 -170 {
 lab=#net16}
 N 290 -290 370 -290 {
@@ -340,21 +340,21 @@ lab=din1}
 N 550 -670 550 -620 {
 lab=nb2}
 N 550 -770 550 -730 {
-lab=dvdd}
+lab=#net17}
 N 550 -560 550 -510 {
-lab=#net17}
+lab=#net18}
 N 550 -700 620 -700 {
-lab=dvdd}
+lab=#net17}
 N 620 -730 620 -700 {
-lab=dvdd}
+lab=#net17}
 N 550 -730 620 -730 {
-lab=dvdd}
+lab=#net17}
 N 550 -590 620 -590 {
-lab=#net17}
+lab=#net18}
 N 620 -590 620 -560 {
-lab=#net17}
+lab=#net18}
 N 550 -560 620 -560 {
-lab=#net17}
+lab=#net18}
 N 510 -670 510 -590 {
 lab=din2}
 N 510 -700 510 -670 {
@@ -362,21 +362,21 @@ lab=din2}
 N 700 -670 700 -620 {
 lab=pb2}
 N 700 -770 700 -730 {
-lab=dvdd}
+lab=#net17}
 N 700 -560 700 -510 {
-lab=#net17}
+lab=#net18}
 N 700 -700 770 -700 {
-lab=dvdd}
+lab=#net17}
 N 770 -730 770 -700 {
-lab=dvdd}
+lab=#net17}
 N 700 -730 770 -730 {
-lab=dvdd}
+lab=#net17}
 N 700 -590 770 -590 {
-lab=#net17}
+lab=#net18}
 N 770 -590 770 -560 {
-lab=#net17}
+lab=#net18}
 N 700 -560 770 -560 {
-lab=#net17}
+lab=#net18}
 N 660 -670 660 -590 {
 lab=nb2}
 N 660 -700 660 -670 {
@@ -384,9 +384,9 @@ lab=nb2}
 N 550 -630 660 -630 {
 lab=nb2}
 N 550 -770 700 -770 {
-lab=dvdd}
-N 550 -510 700 -510 {
 lab=#net17}
+N 550 -510 700 -510 {
+lab=#net18}
 N 700 -630 780 -630 {
 lab=pb2}
 N 470 -630 510 -630 {
@@ -394,21 +394,21 @@ lab=din2}
 N 550 -330 550 -280 {
 lab=nb3}
 N 550 -430 550 -390 {
-lab=dvdd}
+lab=#net19}
 N 550 -220 550 -170 {
-lab=#net18}
+lab=#net20}
 N 550 -360 620 -360 {
-lab=dvdd}
+lab=#net19}
 N 620 -390 620 -360 {
-lab=dvdd}
+lab=#net19}
 N 550 -390 620 -390 {
-lab=dvdd}
+lab=#net19}
 N 550 -250 620 -250 {
-lab=#net18}
+lab=#net20}
 N 620 -250 620 -220 {
-lab=#net18}
+lab=#net20}
 N 550 -220 620 -220 {
-lab=#net18}
+lab=#net20}
 N 510 -330 510 -250 {
 lab=din3}
 N 510 -360 510 -330 {
@@ -416,21 +416,21 @@ lab=din3}
 N 700 -330 700 -280 {
 lab=pb3}
 N 700 -430 700 -390 {
-lab=dvdd}
+lab=#net19}
 N 700 -220 700 -170 {
-lab=#net18}
+lab=#net20}
 N 700 -360 770 -360 {
-lab=dvdd}
+lab=#net19}
 N 770 -390 770 -360 {
-lab=dvdd}
+lab=#net19}
 N 700 -390 770 -390 {
-lab=dvdd}
+lab=#net19}
 N 700 -250 770 -250 {
-lab=#net18}
+lab=#net20}
 N 770 -250 770 -220 {
-lab=#net18}
+lab=#net20}
 N 700 -220 770 -220 {
-lab=#net18}
+lab=#net20}
 N 660 -330 660 -250 {
 lab=nb3}
 N 660 -360 660 -330 {
@@ -438,9 +438,9 @@ lab=nb3}
 N 550 -290 660 -290 {
 lab=nb3}
 N 550 -430 700 -430 {
-lab=dvdd}
+lab=#net19}
 N 550 -170 700 -170 {
-lab=#net18}
+lab=#net20}
 N 700 -290 780 -290 {
 lab=pb3}
 N 470 -290 510 -290 {
@@ -448,21 +448,21 @@ lab=din3}
 N 950 -670 950 -620 {
 lab=nb4}
 N 950 -770 950 -730 {
-lab=dvdd}
+lab=#net21}
 N 950 -560 950 -510 {
-lab=#net19}
+lab=#net22}
 N 950 -700 1020 -700 {
-lab=dvdd}
+lab=#net21}
 N 1020 -730 1020 -700 {
-lab=dvdd}
+lab=#net21}
 N 950 -730 1020 -730 {
-lab=dvdd}
+lab=#net21}
 N 950 -590 1020 -590 {
-lab=#net19}
+lab=#net22}
 N 1020 -590 1020 -560 {
-lab=#net19}
+lab=#net22}
 N 950 -560 1020 -560 {
-lab=#net19}
+lab=#net22}
 N 910 -670 910 -590 {
 lab=din4}
 N 910 -700 910 -670 {
@@ -470,21 +470,21 @@ lab=din4}
 N 1100 -670 1100 -620 {
 lab=pb4}
 N 1100 -770 1100 -730 {
-lab=dvdd}
+lab=#net21}
 N 1100 -560 1100 -510 {
-lab=#net19}
+lab=#net22}
 N 1100 -700 1170 -700 {
-lab=dvdd}
+lab=#net21}
 N 1170 -730 1170 -700 {
-lab=dvdd}
+lab=#net21}
 N 1100 -730 1170 -730 {
-lab=dvdd}
+lab=#net21}
 N 1100 -590 1170 -590 {
-lab=#net19}
+lab=#net22}
 N 1170 -590 1170 -560 {
-lab=#net19}
+lab=#net22}
 N 1100 -560 1170 -560 {
-lab=#net19}
+lab=#net22}
 N 1060 -670 1060 -590 {
 lab=nb4}
 N 1060 -700 1060 -670 {
@@ -492,9 +492,9 @@ lab=nb4}
 N 950 -630 1060 -630 {
 lab=nb4}
 N 950 -770 1100 -770 {
-lab=dvdd}
+lab=#net21}
 N 950 -510 1100 -510 {
-lab=#net19}
+lab=#net22}
 N 1100 -630 1180 -630 {
 lab=pb4}
 N 870 -630 910 -630 {
@@ -502,21 +502,21 @@ lab=din4}
 N 950 -330 950 -280 {
 lab=nb5}
 N 950 -430 950 -390 {
-lab=dvdd}
+lab=#net23}
 N 950 -220 950 -170 {
-lab=#net20}
+lab=#net24}
 N 950 -360 1020 -360 {
-lab=dvdd}
+lab=#net23}
 N 1020 -390 1020 -360 {
-lab=dvdd}
+lab=#net23}
 N 950 -390 1020 -390 {
-lab=dvdd}
+lab=#net23}
 N 950 -250 1020 -250 {
-lab=#net20}
+lab=#net24}
 N 1020 -250 1020 -220 {
-lab=#net20}
+lab=#net24}
 N 950 -220 1020 -220 {
-lab=#net20}
+lab=#net24}
 N 910 -330 910 -250 {
 lab=din5}
 N 910 -360 910 -330 {
@@ -524,21 +524,21 @@ lab=din5}
 N 1100 -330 1100 -280 {
 lab=pb5}
 N 1100 -430 1100 -390 {
-lab=dvdd}
+lab=#net23}
 N 1100 -220 1100 -170 {
-lab=#net20}
+lab=#net24}
 N 1100 -360 1170 -360 {
-lab=dvdd}
+lab=#net23}
 N 1170 -390 1170 -360 {
-lab=dvdd}
+lab=#net23}
 N 1100 -390 1170 -390 {
-lab=dvdd}
+lab=#net23}
 N 1100 -250 1170 -250 {
-lab=#net20}
+lab=#net24}
 N 1170 -250 1170 -220 {
-lab=#net20}
+lab=#net24}
 N 1100 -220 1170 -220 {
-lab=#net20}
+lab=#net24}
 N 1060 -330 1060 -250 {
 lab=nb5}
 N 1060 -360 1060 -330 {
@@ -546,9 +546,9 @@ lab=nb5}
 N 950 -290 1060 -290 {
 lab=nb5}
 N 950 -430 1100 -430 {
-lab=dvdd}
+lab=#net23}
 N 950 -170 1100 -170 {
-lab=#net20}
+lab=#net24}
 N 1100 -290 1180 -290 {
 lab=pb5}
 N 870 -290 910 -290 {
@@ -556,21 +556,21 @@ lab=din5}
 N 1360 -670 1360 -620 {
 lab=nb6}
 N 1360 -770 1360 -730 {
-lab=dvdd}
+lab=#net25}
 N 1360 -560 1360 -510 {
-lab=#net21}
+lab=#net26}
 N 1360 -700 1430 -700 {
-lab=dvdd}
+lab=#net25}
 N 1430 -730 1430 -700 {
-lab=dvdd}
+lab=#net25}
 N 1360 -730 1430 -730 {
-lab=dvdd}
+lab=#net25}
 N 1360 -590 1430 -590 {
-lab=#net21}
+lab=#net26}
 N 1430 -590 1430 -560 {
-lab=#net21}
+lab=#net26}
 N 1360 -560 1430 -560 {
-lab=#net21}
+lab=#net26}
 N 1320 -670 1320 -590 {
 lab=din6}
 N 1320 -700 1320 -670 {
@@ -578,21 +578,21 @@ lab=din6}
 N 1510 -670 1510 -620 {
 lab=pb6}
 N 1510 -770 1510 -730 {
-lab=dvdd}
+lab=#net25}
 N 1510 -560 1510 -510 {
-lab=#net21}
+lab=#net26}
 N 1510 -700 1580 -700 {
-lab=dvdd}
+lab=#net25}
 N 1580 -730 1580 -700 {
-lab=dvdd}
+lab=#net25}
 N 1510 -730 1580 -730 {
-lab=dvdd}
+lab=#net25}
 N 1510 -590 1580 -590 {
-lab=#net21}
+lab=#net26}
 N 1580 -590 1580 -560 {
-lab=#net21}
+lab=#net26}
 N 1510 -560 1580 -560 {
-lab=#net21}
+lab=#net26}
 N 1470 -670 1470 -590 {
 lab=nb6}
 N 1470 -700 1470 -670 {
@@ -600,9 +600,9 @@ lab=nb6}
 N 1360 -630 1470 -630 {
 lab=nb6}
 N 1360 -770 1510 -770 {
-lab=dvdd}
+lab=#net25}
 N 1360 -510 1510 -510 {
-lab=#net21}
+lab=#net26}
 N 1510 -630 1590 -630 {
 lab=pb6}
 N 1280 -630 1320 -630 {
@@ -610,21 +610,21 @@ lab=din6}
 N 1360 -330 1360 -280 {
 lab=nb7}
 N 1360 -430 1360 -390 {
-lab=dvdd}
+lab=#net27}
 N 1360 -220 1360 -170 {
-lab=#net22}
+lab=#net28}
 N 1360 -360 1430 -360 {
-lab=dvdd}
+lab=#net27}
 N 1430 -390 1430 -360 {
-lab=dvdd}
+lab=#net27}
 N 1360 -390 1430 -390 {
-lab=dvdd}
+lab=#net27}
 N 1360 -250 1430 -250 {
-lab=#net22}
+lab=#net28}
 N 1430 -250 1430 -220 {
-lab=#net22}
+lab=#net28}
 N 1360 -220 1430 -220 {
-lab=#net22}
+lab=#net28}
 N 1320 -330 1320 -250 {
 lab=din7}
 N 1320 -360 1320 -330 {
@@ -632,21 +632,21 @@ lab=din7}
 N 1510 -330 1510 -280 {
 lab=pb7}
 N 1510 -430 1510 -390 {
-lab=dvdd}
+lab=#net27}
 N 1510 -220 1510 -170 {
-lab=#net22}
+lab=#net28}
 N 1510 -360 1580 -360 {
-lab=dvdd}
+lab=#net27}
 N 1580 -390 1580 -360 {
-lab=dvdd}
+lab=#net27}
 N 1510 -390 1580 -390 {
-lab=dvdd}
+lab=#net27}
 N 1510 -250 1580 -250 {
-lab=#net22}
+lab=#net28}
 N 1580 -250 1580 -220 {
-lab=#net22}
+lab=#net28}
 N 1510 -220 1580 -220 {
-lab=#net22}
+lab=#net28}
 N 1470 -330 1470 -250 {
 lab=nb7}
 N 1470 -360 1470 -330 {
@@ -654,22 +654,45 @@ lab=nb7}
 N 1360 -290 1470 -290 {
 lab=nb7}
 N 1360 -430 1510 -430 {
-lab=dvdd}
+lab=#net27}
 N 1360 -170 1510 -170 {
-lab=#net22}
+lab=#net28}
 N 1510 -290 1590 -290 {
 lab=pb7}
 N 1280 -290 1320 -290 {
 lab=din7}
-C {devices/code.sym} 0 -120 0 0 {name=TT_MODELS
-only_toplevel=true
-format="tcleval( @value )"
-value="
-** opencircuitdesign pdks install
-.lib $::SKYWATER_MODELS/sky130.lib.spice tt
-
-"
-spice_ignore=false}
+N 180 -1020 180 -960 {}
+N 260 -1020 260 -960 {}
+N 340 -1020 340 -960 {}
+N 420 -1020 420 -960 {}
+N 500 -1020 500 -960 {}
+N 580 -1020 580 -960 {}
+N 660 -1020 660 -960 {}
+N 800 -1020 800 -960 {}
+N 880 -1020 880 -960 {}
+N 960 -1020 960 -960 {}
+N 1040 -1020 1040 -960 {}
+N 1120 -1020 1120 -960 {}
+N 1200 -1020 1200 -960 {}
+N 1280 -1020 1280 -960 {}
+N 1360 -1020 1360 -960 {}
+N 180 -1310 180 -1220 {}
+N 260 -1310 260 -1220 {}
+N 340 -1310 340 -1220 {}
+N 420 -1310 420 -1220 {}
+N 500 -1310 500 -1220 {}
+N 580 -1310 580 -1220 {}
+N 660 -1310 660 -1220 {}
+N 800 -1310 800 -1220 {}
+N 880 -1310 880 -1220 {}
+N 960 -1310 960 -1220 {}
+N 1040 -1310 1040 -1220 {}
+N 1120 -1310 1120 -1220 {}
+N 1200 -1310 1200 -1220 {}
+N 1280 -1310 1280 -1220 {}
+N 1360 -1310 1360 -1220 {}
+N 100 -1010 100 -960 {}
+N 100 -1310 100 -1230 {}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} 100 -1330 1 0 {name=M1
 L=10
 W=0.5
@@ -1254,7 +1277,6 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_pin.sym} -120 -1770 0 0 {name=p1 sig_type=std_logic lab=xxx}
 C {devices/lab_wire.sym} 210 -630 0 0 {name=p2 sig_type=std_logic lab=nb0}
 C {devices/lab_wire.sym} 370 -630 0 0 {name=p3 sig_type=std_logic lab=pb0}
 C {devices/ipin.sym} 60 -630 0 0 {name=p4 lab=din0}
@@ -1707,18 +1729,50 @@ C {devices/iopin.sym} 730 -1400 3 0 {name=p58 lab=tap}
 C {devices/iopin.sym} 1390 -1160 0 0 {name=p59 lab=b}
 C {devices/iopin.sym} 70 -1160 0 1 {name=p60 lab=a}
 C {devices/ipin.sym} 210 -770 1 0 {name=p61 lab=dvdd}
-C {devices/ipin.sym} 620 -770 1 0 {name=p62 lab=dvdd}
-C {devices/ipin.sym} 1020 -770 1 0 {name=p63 lab=dvdd}
-C {devices/ipin.sym} 1440 -770 1 0 {name=p64 lab=dvdd}
-C {devices/ipin.sym} 210 -430 1 0 {name=p65 lab=dvdd}
-C {devices/ipin.sym} 630 -430 1 0 {name=p66 lab=dvdd}
-C {devices/ipin.sym} 1030 -430 1 0 {name=p67 lab=dvdd}
-C {devices/ipin.sym} 1440 -430 1 0 {name=p68 lab=dvdd}
 C {devices/ipin.sym} 140 -510 0 0 {name=p69 lab=dvss}
-C {devices/ipin.sym} 550 -510 0 0 {name=p70 lab=dvss}
-C {devices/ipin.sym} 140 -170 0 0 {name=p71 lab=dvss}
-C {devices/ipin.sym} 550 -170 0 0 {name=p72 lab=dvss}
-C {devices/ipin.sym} 950 -510 0 0 {name=p73 lab=dvss}
-C {devices/ipin.sym} 950 -170 0 0 {name=p74 lab=dvss}
-C {devices/ipin.sym} 1360 -510 0 0 {name=p75 lab=dvss}
-C {devices/ipin.sym} 1360 -170 0 0 {name=p76 lab=dvss}
+C {devices/lab_wire.sym} 180 -1020 1 0 {name=p1 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 260 -1020 1 0 {name=p62 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 340 -1020 1 0 {name=p63 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 420 -1020 1 0 {name=p64 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 500 -1020 1 0 {name=p65 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 580 -1020 1 0 {name=p66 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 660 -1020 1 0 {name=p67 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 800 -1020 1 0 {name=p68 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 880 -1020 1 0 {name=p70 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 960 -1020 1 0 {name=p71 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 1040 -1020 1 0 {name=p72 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 1120 -1020 1 0 {name=p73 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 1200 -1020 1 0 {name=p74 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 1280 -1020 1 0 {name=p75 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 1360 -1020 1 0 {name=p76 sig_type=std_logic lab=avss}
+C {devices/lab_wire.sym} 180 -1220 3 0 {name=p77 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 260 -1220 3 0 {name=p78 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 340 -1220 3 0 {name=p79 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 420 -1220 3 0 {name=p80 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 500 -1220 3 0 {name=p81 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 580 -1220 3 0 {name=p82 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 660 -1220 3 0 {name=p83 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 800 -1220 3 0 {name=p84 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 880 -1220 3 0 {name=p85 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 960 -1220 3 0 {name=p86 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 1040 -1220 3 0 {name=p87 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 1120 -1220 3 0 {name=p88 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 1200 -1220 3 0 {name=p89 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 1280 -1220 3 0 {name=p90 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 1360 -1220 3 0 {name=p91 sig_type=std_logic lab=avdd}
+C {devices/lab_wire.sym} 620 -770 1 0 {name=p92 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 620 -510 3 0 {name=p93 sig_type=std_logic lab=dvss}
+C {devices/lab_wire.sym} 1020 -770 1 0 {name=p94 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 1020 -510 3 0 {name=p95 sig_type=std_logic lab=dvss}
+C {devices/lab_wire.sym} 1440 -770 1 0 {name=p96 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 1440 -510 3 0 {name=p97 sig_type=std_logic lab=dvss}
+C {devices/lab_wire.sym} 220 -430 1 0 {name=p98 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 220 -170 3 0 {name=p99 sig_type=std_logic lab=dvss}
+C {devices/lab_wire.sym} 630 -430 1 0 {name=p100 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 630 -170 3 0 {name=p101 sig_type=std_logic lab=dvss}
+C {devices/lab_wire.sym} 1030 -430 1 0 {name=p102 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 1030 -170 3 0 {name=p103 sig_type=std_logic lab=dvss}
+C {devices/lab_wire.sym} 1450 -430 1 0 {name=p104 sig_type=std_logic lab=dvdd}
+C {devices/lab_wire.sym} 1450 -170 3 0 {name=p105 sig_type=std_logic lab=dvss}
+C {devices/ipin.sym} 100 -1010 1 0 {name=p106 lab=avss}
+C {devices/ipin.sym} 100 -1230 3 0 {name=p107 lab=avdd}
