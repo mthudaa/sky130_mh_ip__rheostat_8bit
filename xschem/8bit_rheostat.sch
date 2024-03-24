@@ -100,23 +100,23 @@ lab=dvss}
 N 380 -1160 380 -1060 {
 lab=dvss}
 N 320 -420 520 -420 {
-lab=dvdd}
+lab=en}
 N 320 -530 520 -530 {
-lab=dvdd}
+lab=en}
 N 320 -650 520 -650 {
-lab=dvdd}
+lab=en}
 N 320 -760 520 -760 {
-lab=dvdd}
+lab=en}
 N 320 -870 520 -870 {
-lab=dvdd}
+lab=en}
 N 320 -980 520 -980 {
-lab=dvdd}
+lab=en}
 N 320 -1090 520 -1090 {
-lab=dvdd}
+lab=en}
 N 320 -1200 520 -1200 {
-lab=dvdd}
+lab=en}
 N 320 -1200 320 -420 {
-lab=dvdd}
+lab=en}
 C {8bit_half_rheostat.sym} 1250 -1040 0 0 {name=x1}
 C {double_output_buffer.sym} 670 -1190 0 0 {name=x2}
 C {double_output_buffer.sym} 670 -1080 0 0 {name=x3}
@@ -157,22 +157,22 @@ C {devices/lab_wire.sym} 1100 -890 2 1 {name=p23 sig_type=std_logic lab=pb0}
 C {devices/lab_wire.sym} 1060 -1210 1 0 {name=p24 sig_type=std_logic lab=avdd}
 C {devices/lab_wire.sym} 1060 -870 3 0 {name=p25 sig_type=std_logic lab=avss}
 C {8bit_half_rheostat.sym} 1250 -590 0 0 {name=x10}
-C {devices/lab_wire.sym} 1100 -740 2 1 {name=p26 sig_type=std_logic lab=nb0}
-C {devices/lab_wire.sym} 1100 -720 2 1 {name=p27 sig_type=std_logic lab=nb5}
-C {devices/lab_wire.sym} 1100 -700 2 1 {name=p28 sig_type=std_logic lab=nb6}
-C {devices/lab_wire.sym} 1100 -680 2 1 {name=p29 sig_type=std_logic lab=nb3}
-C {devices/lab_wire.sym} 1100 -660 2 1 {name=p30 sig_type=std_logic lab=nb4}
-C {devices/lab_wire.sym} 1100 -640 2 1 {name=p31 sig_type=std_logic lab=nb1}
-C {devices/lab_wire.sym} 1100 -620 2 1 {name=p32 sig_type=std_logic lab=nb7}
-C {devices/lab_wire.sym} 1100 -600 2 1 {name=p33 sig_type=std_logic lab=nb2}
-C {devices/lab_wire.sym} 1100 -580 2 1 {name=p34 sig_type=std_logic lab=pb3}
-C {devices/lab_wire.sym} 1100 -560 2 1 {name=p35 sig_type=std_logic lab=pb2}
-C {devices/lab_wire.sym} 1100 -540 2 1 {name=p36 sig_type=std_logic lab=pb4}
-C {devices/lab_wire.sym} 1100 -520 2 1 {name=p37 sig_type=std_logic lab=pb1}
-C {devices/lab_wire.sym} 1100 -500 2 1 {name=p38 sig_type=std_logic lab=pb5}
-C {devices/lab_wire.sym} 1100 -480 2 1 {name=p39 sig_type=std_logic lab=pb7}
-C {devices/lab_wire.sym} 1100 -460 2 1 {name=p40 sig_type=std_logic lab=pb6}
-C {devices/lab_wire.sym} 1100 -440 2 1 {name=p41 sig_type=std_logic lab=pb0}
+C {devices/lab_wire.sym} 1100 -740 2 1 {name=p26 sig_type=std_logic lab=pb0}
+C {devices/lab_wire.sym} 1100 -720 2 1 {name=p27 sig_type=std_logic lab=pb5}
+C {devices/lab_wire.sym} 1100 -700 2 1 {name=p28 sig_type=std_logic lab=pb6}
+C {devices/lab_wire.sym} 1100 -680 2 1 {name=p29 sig_type=std_logic lab=pb3}
+C {devices/lab_wire.sym} 1100 -660 2 1 {name=p30 sig_type=std_logic lab=pb4}
+C {devices/lab_wire.sym} 1100 -640 2 1 {name=p31 sig_type=std_logic lab=pb1}
+C {devices/lab_wire.sym} 1100 -620 2 1 {name=p32 sig_type=std_logic lab=pb7}
+C {devices/lab_wire.sym} 1100 -600 2 1 {name=p33 sig_type=std_logic lab=pb2}
+C {devices/lab_wire.sym} 1100 -580 2 1 {name=p34 sig_type=std_logic lab=nb3}
+C {devices/lab_wire.sym} 1100 -560 2 1 {name=p35 sig_type=std_logic lab=nb2}
+C {devices/lab_wire.sym} 1100 -540 2 1 {name=p36 sig_type=std_logic lab=nb4}
+C {devices/lab_wire.sym} 1100 -520 2 1 {name=p37 sig_type=std_logic lab=nb1}
+C {devices/lab_wire.sym} 1100 -500 2 1 {name=p38 sig_type=std_logic lab=nb5}
+C {devices/lab_wire.sym} 1100 -480 2 1 {name=p39 sig_type=std_logic lab=nb7}
+C {devices/lab_wire.sym} 1100 -460 2 1 {name=p40 sig_type=std_logic lab=nb6}
+C {devices/lab_wire.sym} 1100 -440 2 1 {name=p41 sig_type=std_logic lab=nb0}
 C {devices/lab_wire.sym} 1060 -760 1 0 {name=p42 sig_type=std_logic lab=avdd}
 C {devices/lab_wire.sym} 1060 -420 3 0 {name=p43 sig_type=std_logic lab=avss}
 C {devices/iopin.sym} 1440 -1210 0 0 {name=p44 lab=a}
