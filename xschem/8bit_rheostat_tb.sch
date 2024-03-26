@@ -75,7 +75,7 @@ C {devices/lab_wire.sym} 860 -190 0 0 {name=p24 sig_type=std_logic lab=ena}
 C {devices/gnd.sym} 800 -130 0 0 {name=l2 lab=GND}
 C {devices/lab_wire.sym} 710 -490 0 1 {name=p25 sig_type=std_logic lab=vp}
 C {devices/lab_wire.sym} 710 -470 0 1 {name=p26 sig_type=std_logic lab=out}
-C {devices/vsource.sym} 1030 -160 0 0 {name=V5 value=5}
+C {devices/vsource.sym} 1030 -160 0 0 {name=V5 value=10}
 C {devices/lab_wire.sym} 1030 -190 0 0 {name=p28 sig_type=std_logic lab=vp}
 C {devices/gnd.sym} 710 -450 0 0 {name=l3 lab=GND}
 C {devices/gnd.sym} 410 -210 0 0 {name=l4 lab=GND}
