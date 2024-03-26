@@ -1,0 +1,4 @@
+** sch_path: /home/mthudaa/Documents/sky130_mh_ip__rheostat_8bit/cace/cace/dccurrent_vdd.sch
+**.subckt dccurrent_vdd
+**.ends
+.end

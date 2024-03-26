@@ -43,7 +43,7 @@ dependencies {
 # Pin names and descriptions
 
 pins {
-	name:		din7:0
+	name:		b7:0
 	description:	Digital input (8 bits)
 	type:		digital
 	direction:	input
@@ -57,6 +57,30 @@ pins {
 	direction:	input
 	Vmin:		vss - 0.3
 	Vmax:		dvdd + 0.3
+
+ 	+
+	name:		Vhigh
+	description:	Reference high voltage
+	type:		signal
+	direction:	input
+	Vmin:		Vlow	
+	Vmax:		vdd
+
+ 	+
+	name:		Vlow
+	description:	Reference low voltage
+	type:		signal
+	direction:	input
+	Vmin:		vss
+	Vmax:		Vhigh
+
+ 	+
+	name:		out
+	description:	DAC voltage output
+	type:		signal
+	direction:	output
+	Vmin:		Vlow
+	Vmax:		Vhigh
 
  	+
 	name:		dvdd
@@ -75,7 +99,7 @@ pins {
 	Vmax:		0.3
 
  	+
-	name:		avdd
+	name:		vdd
 	description:	Positive analog power supply
 	type:		power
 	direction:	inout
@@ -83,33 +107,9 @@ pins {
 	Vmax:		3.6
 
  	+
-	name:		avss
+	name:		vss
 	description:	Analog ground
 	type:		ground
-	direction:	inout
-	Vmin:		-0.3
-	Vmax:		0.3
-
-    +
-	name:		a
-	description:	"a" labelled tap
-	type:		signal
-	direction:	inout
-	Vmin:		-0.3
-	Vmax:		0.3
-
-    +
-	name:		b
-	description:	"b" labelled tap
-	type:		signal
-	direction:	inout
-	Vmin:		-0.3
-	Vmax:		0.3
-
-    +
-	name:		tap
-	description:    tap middle of rheostat
-	type:		signal
 	direction:	inout
 	Vmin:		-0.3
 	Vmax:		0.3
@@ -135,22 +135,44 @@ default_conditions {
 	+
 	name:		Vvdd
 	description:	Analog power supply voltage
-	display:	avdd
+	display:	vdd
 	unit:		V
 	typical:	3.3
 
 	+
 	name:		Vvss
 	description:	Analog ground
-	display:	avss
+	display:	vss
 	unit:		V
 	typical:	0
-# belum ditambahkan untuk taps, a, b
 
+	+
+	name:		Rout
+	description:	Output load resistance
+	display:	RLoad
+	unit:		M{ohms}
+	typical:	100
 
+	+
+	name:		Cout
+	description:	Output load capatitance
+	display:	CLoad
+	unit:		fF
+	maximum:	100
 
+	+
+	name:		Vlow
+	description:	DAC low voltage reference
+	display:	Vlow
+	unit:		V
+	typical:	0
 
-
+	+
+	name:		Vhigh
+	description:	DAC high voltage reference
+	display:	Vhigh
+	unit:		V
+	typical:	3.3
 
 	+
 	name:		ena

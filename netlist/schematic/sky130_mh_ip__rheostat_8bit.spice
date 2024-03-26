@@ -1,0 +1,61 @@
+** sch_path: /home/mthudaa/Documents/sky130_mh_ip__rheostat_8bit/xschem/sky130_mh_ip__rheostat_8bit.sch
+.subckt sky130_mh_ip__rheostat_8bit avdd a en din0 din1 tap din2 din3 din4 b din5 din6 din7 dvss avss
+*.PININFO din0:I din1:I din2:I din3:I din4:I din5:I din6:I din7:I a:B tap:B b:B dvss:I avdd:I avss:I en:I
+x1 avdd nb0 nb5 nb6 nb3 nb4 nb1 nb7 nb2 a tap pb3 pb2 pb4 pb1 pb5 pb7 pb6 pb0 avss 8bit_half_rheostat
+x2 avdd nb0 en pb0 din0 dvss double_output_buffer
+x3 avdd nb1 en pb1 din1 dvss double_output_buffer
+x4 avdd nb2 en pb2 din2 dvss double_output_buffer
+x5 avdd nb3 en pb3 din3 dvss double_output_buffer
+x6 avdd nb4 en pb4 din4 dvss double_output_buffer
+x7 avdd nb5 en pb5 din5 dvss double_output_buffer
+x8 avdd nb6 en pb6 din6 dvss double_output_buffer
+x9 avdd nb7 en pb7 din7 dvss double_output_buffer
+x10 avdd pb0 pb5 pb6 pb3 pb4 pb1 pb7 pb2 tap b nb3 nb2 nb4 nb1 nb5 nb7 nb6 nb0 avss 8bit_half_rheostat
+.ends
+
+* expanding   symbol:  8bit_half_rheostat.sym # of pins=20
+** sym_path: ./xschem/8bit_half_rheostat.sym
+** sch_path: /home/mthudaa/Documents/sky130_mh_ip__rheostat_8bit/xschem/8bit_half_rheostat.sch
+.subckt 8bit_half_rheostat avdd inn0 inn5 inn6 inn3 inn4 inn1 inn7 inn2 a b inp3 inp2 inp4 inp1 inp5 inp7 inp6 inp0 avss
+*.PININFO b:B a:B inn0:I inn1:I inn2:I inn3:I inn4:I inn5:I inn6:I inn7:I inp0:I inp1:I inp2:I inp3:I inp4:I inp5:I inp6:I inp7:I
+*+ avdd:I avss:I
+XM17 a inn0 net1 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.85 nf=1 m=1
+XM18 a inp0 net1 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.85 nf=1 m=1
+XM19 net1 inn1 net2 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.75 nf=1 m=1
+XM20 net1 inp1 net2 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.75 nf=1 m=1
+XM21 net2 inn2 net3 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.65 nf=1 m=1
+XM22 net2 inp2 net3 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.65 nf=1 m=1
+XM23 net3 inn3 net4 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.55 nf=1 m=1
+XM24 net3 inp3 net4 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.55 nf=1 m=1
+XM25 net4 inn4 net5 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.45 nf=1 m=1
+XM26 net4 inp4 net5 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.45 nf=1 m=1
+XM27 net5 inn5 net6 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.35 nf=1 m=1
+XM28 net5 inp5 net6 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.35 nf=1 m=1
+XM29 net6 inn6 net7 avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.25 nf=1 m=1
+XM30 net6 inp6 net7 avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.25 nf=1 m=1
+XM31 net7 inn7 b avdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.15 nf=1 m=1
+XM32 net7 inp7 b avss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.15 nf=1 m=1
+XR9 a net1 sky130_fd_pr__res_generic_po W=0.957 L=2 m=1
+XR10 net1 net2 sky130_fd_pr__res_generic_po W=0.957 L=4 m=1
+XR11 net2 net3 sky130_fd_pr__res_generic_po W=0.957 L=8 m=1
+XR12 net3 net4 sky130_fd_pr__res_generic_po W=0.957 L=16 m=1
+XR13 net4 net5 sky130_fd_pr__res_generic_po W=0.957 L=32 m=1
+XR14 net5 net6 sky130_fd_pr__res_generic_po W=0.957 L=64 m=1
+XR15 net6 net7 sky130_fd_pr__res_generic_po W=0.957 L=128 m=1
+XR16 net7 b sky130_fd_pr__res_generic_po W=0.957 L=256 m=1
+.ends
+
+
+* expanding   symbol:  double_output_buffer.sym # of pins=6
+** sym_path: ./xschem/double_output_buffer.sym
+** sch_path: /home/mthudaa/Documents/sky130_mh_ip__rheostat_8bit/xschem/double_output_buffer.sch
+.subckt double_output_buffer avdd nout ena pout din dvss
+*.PININFO din:I ena:I avdd:I dvss:I pout:O nout:O
+x2 net1 dvss dvss avdd avdd net2 sky130_fd_sc_hvl__buf_2
+x3 net2 dvss dvss avdd avdd net3 sky130_fd_sc_hvl__buf_4
+x4 net3 dvss dvss avdd avdd pout sky130_fd_sc_hvl__buf_8
+x5 pout dvss dvss avdd avdd nout sky130_fd_sc_hvl__inv_8
+x6 ena din dvss dvss avdd avdd net1 sky130_fd_sc_hvl__and2_1
+.ends
+
+.end
